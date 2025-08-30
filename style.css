@@ -9,6 +9,10 @@
     margin: 0px;
 }
 
+html, body {
+    min-height: 100vh;
+}
+
 :root {
     --fonte-titulo: 'Passion One',sans-serif;
     --fonte-poema: 'Sriracha',sans-serif;
@@ -23,15 +27,17 @@ header {
 
 h1 {
     padding-top: 60px;
-    font-size: 132px;
+    font-size: 20vh;
     font-family: var(--fonte-titulo);
     color: white;
+    font-variant: small-caps;
 
 }
 
 header p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    padding-bottom: 50px;
 }
 
 a {
@@ -40,15 +46,23 @@ a {
     font-weight: bold;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 main {
     min-width: 300px;
     margin-top: 70px;
 }
 
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
 
 main p {
     font-family: var(--fonte-poema);
-    font-size: 49px;
+    font-size: 8vh;
 }
 
 .estrofes {
