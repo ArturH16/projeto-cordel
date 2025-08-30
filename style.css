@@ -27,7 +27,7 @@ header {
 
 h1 {
     padding-top: 60px;
-    font-size: 20vh;
+    font-size: 10vw;
     font-family: var(--fonte-titulo);
     color: white;
     font-variant: small-caps;
@@ -52,22 +52,18 @@ a:hover {
 
 main {
     min-width: 300px;
-    margin-top: 70px;
+    margin-top: 20px;
 }
 
 section {
+    font-family: var(--fonte-poema);
     padding-top: 10vh;
     padding-bottom: 10vh;
-}
-
-main p {
-    font-family: var(--fonte-poema);
-    font-size: 8vh;
-}
-
-.estrofes {
     padding-left: 30px;
+    font-size: 3.5vw;
 }
+
+
 
 #estrofe1 {
     margin-bottom: 100px;
@@ -89,15 +85,13 @@ main p {
     position: absolute;
     background-color: black;
     display: block;
+    padding: 10px;
 }
 
 #estrofe3 {
-    margin-top: 60px;
+    margin-top: 35px;
 }
 
-#estrofe4 {
-    margin-top: 90px;
-}
 
 #estrofe5 {
     box-shadow: inset 0px 3px 5px 5px rgba(0, 0, 0, 0.219);
@@ -121,12 +115,12 @@ main p {
 }
 
 #estrofe6 {
-    margin-top: 85px;
+    margin-top: 25px;
 }
 
 #estrofe7 {
-    margin-top: 85px;
-    margin-bottom: 150px;
+    margin-top: 5px;
+    margin-bottom: 100px;
 }
 
 footer {
